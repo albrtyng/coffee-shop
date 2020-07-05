@@ -7,7 +7,7 @@ ul {
 }
 
 .beans-logo {
-  height: 120px;
+  height: 7.5rem;
 }
 
 header, footer {
@@ -15,16 +15,17 @@ header, footer {
 }
 
 .company-title, .header-section-heading {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 100;
 }
 
 a {
-  font-size: 21px;
+  font-size: 1.313rem;
 }
 
 .header-description {
-  width: 17%
+  font-size: 1.125rem;
+  width: 325px;
 }
 
 .hero-container {
@@ -35,29 +36,29 @@ a {
   background-color: #5BACC3;
   color: white;
   text-transform: uppercase;
-  width: 180px;
-  height: 55px;
+  width: 11.25rem;
+  height: 3.438rem;
   border: none;
-  font-size: 21px;
+  font-size: 1.313rem;
 }
 
 .product-item-title, .footer-item-title{
   font-weight: 100;
-  font-size: 33px;
+  font-size: 2.063rem;
 }
 
 .product-item-price {
   color: #5BACC3;
-  font-size: 33px;
+  font-size: 2.063rem;
 }
 
 .discount-section {
-  width: 1137px;
+  width: 55vw;
   background-color: rgba(0, 0, 0, 0.85);
 }
 
 .discount-text {
   color: white;
-  font-size: 45px;
+  font-size: 2.813rem;
   margin-top: 0;
 }
