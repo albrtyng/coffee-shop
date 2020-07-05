@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="menu.css" rel="stylesheet" />
   <title>Nitro Coffee Menu</title>
 </head>
 <body>
   <header>
-    <img src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
-    <h2>nitro</h2>
+    <img src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" class="beans-logo" />
+    <h2 class="company-title">nitro</h2>
     <nav>
       <ul>
         <li><a href="/about">ABOUT</a></li>
@@ -18,53 +19,56 @@
     </nav>
   </header>
   <section id="menu">
-    <h1>MENU</h1>
-    <nav>
+    <div class="title-box ui-grey">
+      <h1 class="menu-title">MENU</h1>
+    </div>
+    <img src="./coffee-shop-assets/coffee-circle.jpg" alt="A circle made of ground coffee" class="menu-hero"/>
+    <nav class="menu-nav ui-grey">
       <ul>
         <li><a href="#hot-drinks">Hot Drinks</a></li>
         <li><a href="#cold-drinks">Cold Drinks</a></li>
         <li><a href="pastries">Pastries</a></li>
       </ul>
     </nav>
-    <section id="hot-drinks">
-      <h2>Hot Drinks</h2>
+    <section id="hot-drinks" class="menu-section light-pink">
+      <h2 class="menu-section-heading">Hot Drinks</h2>
       <div>
-        <h3>In-house Brew</h3>
-        <p>Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to bring everything together.</p>
-        <p>$2.99</p>
+        <h3 class="menu-item-title">In-house Brew</h3>
+        <p class="menu-item-description">Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low acidity to bring everything together.</p>
+        <p class="menu-item-price">$2.99</p>
       </div>
       <div>
-        <h3>Espresso</h3>
-        <p>A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor profile. It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish.</p>
-        <p>$4.99</p>
+        <h3 class="menu-item-title">Espresso</h3>
+        <p class="menu-item-description">A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor profile. It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish.</p>
+        <p class="menu-item-price">$4.99</p>
       </div>
     </section>
     
-    <section id="cold-drinks">
-      <h2>Cold Drinks</h2>
+    <section id="cold-drinks" class="menu-section light-grey">
+      <h2 class="menu-section-heading">Cold Drinks</h2>
       <div>
-        <h3>Cold Brew</h3>
-        <p>Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the flavor of our amazing in-house coffee.</p>
-        <p>$3.99</p>
+        <h3 class="menu-item-title">Cold Brew</h3>
+        <p class="menu-item-description">Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the flavor of our amazing in-house coffee.</p>
+        <p class="menu-item-price">$3.99</p>
       </div>
       <div>
-        <h3>Espresso</h3>
-        <p>A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over ice.</p>
-        <p>$6.99</p>
+        <h3 class="menu-item-title">Espresso</h3>
+        <p class="menu-item-description">A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over ice.</p>
+        <p class="menu-item-price">$6.99</p>
       </div>
     </div>
   
-    <section id="pastries">
-      <h2>Pastries</h2>
+    <section id="pastries" class="menu-section light-pink">
+      <h2 class="menu-section-heading">Pastries</h2>
       <div>
-        <h3>Bacon Oatmeal Raisin Cookie</h3>
-        <p>An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to create a soft and chewy textured cookie.</p>
-        <p>$3.50</p>
+        <h3 class="menu-item-title">Bacon Oatmeal Raisin Cookie</h3>
+        <p class="menu-item-description">An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to create a soft and chewy textured cookie.</p>
+        <p class="menu-item-price">$3.50</p>
       </div>
       <div>
-        <h3>Blueberry, Lemon and Thyme Muffin</h3>
-        <p>Tart and sweet, this classic blueberry and lemon combination comes with an earthy twist.</p>
-        <p>$2.50</p>
+        <h3 class="menu-item-title">Blueberry, Lemon and Thyme Muffin</h3>
+        <p class="menu-item-description">Tart and sweet, this classic blueberry and lemon combination comes with an earthy twist.</p>
+        <p class="menu-item-price">$2.50</p>
       </div>
     </section>
   </section>

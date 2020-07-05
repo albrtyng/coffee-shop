@@ -1,0 +1,92 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.beans-logo {
+  height: 120px;
+}
+
+.company-title, .menu-section-heading {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+a {
+  font-size: 21px;
+}
+
+.menu-title {
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  margin: 0;
+}
+
+.title-box {
+  width: 285px;
+  height: 185px;
+  position: absolute;
+  text-align: center;
+}
+
+.ui-grey {
+  background-color:#393939;
+}
+
+.clear {
+  border: 4px;
+  offset: 15px;
+}
+
+.blue-border {
+  border-color: #5BACC3;
+}
+
+.menu-hero {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  overflow: hidden;
+  position: center
+}
+
+.menu-nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-section {
+  text-align: center;
+}
+
+.menu-item-title {
+  font-weight: 100;
+  font-size: 33px;
+}
+
+.menu-item-description {
+  font-style: italic;
+  width: 25%;
+  font-size: 18px;
+}
+
+.menu-item-price {
+  color: #5BACC3;
+}
+
+.light-pink {
+  background-color: #FFF0ED;
+}
+
+.light-grey {
+  background-color: #f7f7f7;
+}

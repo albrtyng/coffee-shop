@@ -1,0 +1,63 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.beans-logo {
+  height: 120px;
+}
+
+header, footer {
+  background-color: #fff0ed;
+}
+
+.company-title, .header-section-heading {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+a {
+  font-size: 21px;
+}
+
+.header-description {
+  width: 17%
+}
+
+.hero-container {
+  display: inline-block;
+}
+
+.blue-button {
+  background-color: #5BACC3;
+  color: white;
+  text-transform: uppercase;
+  width: 180px;
+  height: 55px;
+  border: none;
+  font-size: 21px;
+}
+
+.product-item-title, .footer-item-title{
+  font-weight: 100;
+  font-size: 33px;
+}
+
+.product-item-price {
+  color: #5BACC3;
+  font-size: 33px;
+}
+
+.discount-section {
+  width: 1137px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.discount-text {
+  color: white;
+  font-size: 45px;
+  margin-top: 0;
+}
