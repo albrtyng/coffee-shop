@@ -5,57 +5,10 @@ html, body {
   font-family: 'Helvetica', sans-serif;
 }
 
-div {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  padding: 0;
-  display: inline-block;
-  list-style-type: none;
-}
-
-li {
-  display: inline-block;
-}
-
-.site-nav {
-  display: inline-block;
-}
-
-.site-nav a {
-  margin: 0 15px;
-}
-
-.black-text {
-  color: black;
-}
-
-.blue-text {
-  color: #5BACC3;
-}
-
-.beans-logo {
-  height: 3.438rem;
-}
-
-.company-title {
-  display: inline-block;
-  font-size: 3.75rem;
-  font-weight: 100;
-  margin: 20px 15px 20px 0;
-}
-
 .menu-section-heading {
   margin: 0;
   font-size: 3.75rem;
   font-weight: 100;
-}
-
-a {
-  text-decoration: none;
-  font-size: 1.313rem;
 }
 
 .menu-title {
@@ -80,17 +33,12 @@ a {
   background-color:#393939;
 }
 
-.clear {
-  border: 0.25rem;
-  offset: 0.938rem;
-}
-
 .menu-hero {
-  width: 100vw;
+  width: 100%;
   height: 46.875rem;
   object-fit: cover;
-  overflow: hidden;
-  position: center
+  position: center;
+  display: block;
 }
 
 .menu-nav {
@@ -99,7 +47,7 @@ a {
 }
 
 .menu-nav a {
-  padding: 0 15px;
+  padding: 0 0.938rem;
   color: white;
 }
 
@@ -109,17 +57,17 @@ a {
 
 .menu-section {
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .menu-item-title {
   font-weight: 100;
   font-size: 2.063rem;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 .menu-item-description {
-  margin: 15px auto 0 auto;
+  margin: 0.938rem auto 0 auto;
   left: 0;
   right: 0;
   font-style: italic;
@@ -128,7 +76,7 @@ a {
 }
 
 .menu-item-price {
-  margin-top: 15px;
+  margin-top: 0.938rem;
   color: #5BACC3;
   font-size: 1.313rem;
 }
