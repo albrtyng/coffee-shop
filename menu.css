@@ -1,22 +1,60 @@
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   font-family: 'Helvetica', sans-serif;
 }
 
+div {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
+  padding: 0;
+  display: inline-block;
   list-style-type: none;
 }
 
-.beans-logo {
-  height: 7.5rem;
+li {
+  display: inline-block;
 }
 
-.company-title, .menu-section-heading {
+.site-nav {
+  display: inline-block;
+}
+
+.site-nav a {
+  margin: 0 15px;
+}
+
+.black-text {
+  color: black;
+}
+
+.blue-text {
+  color: #5BACC3;
+}
+
+.beans-logo {
+  height: 3.438rem;
+}
+
+.company-title {
+  display: inline-block;
+  font-size: 3.75rem;
+  font-weight: 100;
+  margin: 20px 15px 20px 0;
+}
+
+.menu-section-heading {
+  margin: 0;
   font-size: 3.75rem;
   font-weight: 100;
 }
 
 a {
+  text-decoration: none;
   font-size: 1.313rem;
 }
 
@@ -31,7 +69,11 @@ a {
   width: 17.813rem;
   height: 11.563rem;
   position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   text-align: center;
+  margin: 0 auto;
 }
 
 .ui-grey {
@@ -41,10 +83,6 @@ a {
 .clear {
   border: 0.25rem;
   offset: 0.938rem;
-}
-
-.blue-border {
-  border-color: #5BACC3;
 }
 
 .menu-hero {
@@ -61,29 +99,38 @@ a {
 }
 
 .menu-nav a {
-  text-decoration: none;
+  padding: 0 15px;
   color: white;
+}
+
+.menu-nav li {
+  border-left: 3px solid #5BACC3;
 }
 
 .menu-section {
   text-align: center;
+  padding: 20px 0;
 }
 
 .menu-item-title {
   font-weight: 100;
   font-size: 2.063rem;
+  margin: 0;
 }
 
 .menu-item-description {
+  margin: 15px auto 0 auto;
+  left: 0;
+  right: 0;
   font-style: italic;
   width: 25%;
   font-size: 1.125rem;
 }
 
 .menu-item-price {
+  margin-top: 15px;
   color: #5BACC3;
-  font-size: 2.063rem;
-
+  font-size: 1.313rem;
 }
 
 .light-pink {
