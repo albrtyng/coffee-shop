@@ -11,42 +11,49 @@
   <header>
     <img src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
     <h2 class="company-title">nitro</h2>
-    <nav>
+    <nav class="site-nav">
       <ul>
-        <li><a href="/about">ABOUT</a></li>
-        <li><a href="/menu">MENU</a></li>
-        <li><a href="/shop">SHOP NOW</a></li>
+        <li><a class="black-text" href="/about">ABOUT</a></li>
+        <li><a class="black-text" href="/menu">MENU</a></li>
+        <li><a class="blue-text" href="/shop">SHOP NOW</a></li>
       </ul>
     </nav>
-    <h1 class="header-section-heading">Nitro Coffee</h1>
-    <p class="header-description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
     <div class="hero-container">
-      <button class="blue-button">SHOP NOW</button>
-      <img src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
+      <div class="header-column-left">
+        <h1 class="header-section-heading">Nitro Coffee</h1>
+        <p class="header-description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+        <button class="blue-button">SHOP NOW</button>
+      </div>
+      <div class="header-column-right">
+        <img src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
+      </div>
     </div>
   </header>
 
-  <section id=products>
-    <h2>Our Products</h2>
-    <div class="product-card">
-      <img src="coffee-shop-assets/coffeebeans.png" alt="A black bag of coffee beans" />
-      <h3 class="product-item-title">Coffee Beans</h3>
-      <p class="product-item-price">$18.99</p>
-    </div>
-    <div class="product-card">
-      <img src="coffee-shop-assets/coldbrew.png" alt="A can of cold brew coffee" />
-      <h3 class="product-item-title">Cold Brew</h3>
-      <p class="product-item-price">$4.99</p>
-    </div>
-    <div class="product-card">
-      <img src="coffee-shop-assets/inhousebrew.png" alt="A black cup of coffee" />
-      <h3 class="product-item-title">In-house Brew</h3>
-      <p class="product-item-price">$2.99</p>
+  <section id=products class="product-section">
+    <h2 class="product-section-heading">Our Products</h2>
+    <div class="product-card-container">
+      <div class="product-card">
+        <img src="coffee-shop-assets/coffeebeans.png" alt="A black bag of coffee beans" />
+        <h3 class="product-item-title">Coffee Beans</h3>
+        <p class="product-item-price">$18.99</p>
+      </div>
+      <div class="product-card">
+        <img src="coffee-shop-assets/coldbrew.png" alt="A can of cold brew coffee" />
+        <h3 class="product-item-title">Cold Brew</h3>
+        <p class="product-item-price">$4.99</p>
+      </div>
+      <div class="product-card">
+        <img src="coffee-shop-assets/inhousebrew.png" alt="A black cup of coffee" />
+        <h3 class="product-item-title">In-house Brew</h3>
+        <p class="product-item-price">$2.99</p>
+      </div>
     </div>
     <button class="blue-button">VIEW ALL</button>
-    <section id="discounts" class="discount-section">
-      <p class="discount-text">Get 20% off your first order with code: FirstNitro</p>
-    </section>
+  </section>
+
+  <section id="discounts" class="discount-section">
+    <p class="discount-text">Get 20% off your first order with code: <b>First Nitro</b></p>
   </section>
 
   <footer>
@@ -62,9 +69,9 @@
     </div>
     <div>
       <h4 class="footer-item-title">Social</h4>
-      <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" />
-      <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" />
-      <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" />
+      <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" class="social-icon"/>
+      <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" class="social-icon"/>
+      <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" class="social-icon"/>
     </div>
   </footer>
 </body>
