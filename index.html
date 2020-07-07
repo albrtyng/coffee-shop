@@ -7,70 +7,113 @@
   <title>Nitro Coffee</title>
 </head>
 <body>
-  <header>
-    <img src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
-    <h2 class="company-title">nitro</h2>
-    <nav class="site-nav">
-      <ul>
-        <li><a class="black-text" href="/about">ABOUT</a></li>
-        <li><a class="black-text" href="/menu">MENU</a></li>
-        <li><a class="blue-text" href="/shop">SHOP NOW</a></li>
-      </ul>
-    </nav>
-    <div class="hero-container">
-      <div class="header-column-left">
-        <h1 class="header-section-heading">Nitro Coffee</h1>
-        <p class="header-description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+  <header class="pink-background">
+    <div class="title-bar">
+      <div class="title-bar__logo">
+        <img class="title-bar__logo-icon" src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
+        <h2 class="title-bar__logo-title">nitro</h2>
+      </div>
+      <div class="title-bar__nav">
+        <nav>
+          <ul>
+            <li><a class="black-text" href="/about">ABOUT</a></li>
+            <li><a class="black-text" href="/menu">MENU</a></li>
+            <li><a class="blue-text" href="/shop">SHOP NOW</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero__column-left">
+        <h1 class="hero__section-heading">Nitro Coffee</h1>
+        <p class="hero__description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
         <button class="blue-button">SHOP NOW</button>
       </div>
-      <div class="header-column-right">
-        <img src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
+      <div class="hero__column-right">
+        <img class="hero__column-right-image" src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
       </div>
     </div>
   </header>
 
   <section id=products class="product-section">
-    <h2 class="product-section-heading">Our Products</h2>
-    <div class="product-card-container">
-      <div class="product-card">
-        <img src="coffee-shop-assets/coffeebeans.png" alt="A black bag of coffee beans" />
-        <h3 class="product-item-title">Coffee Beans</h3>
-        <p class="product-item-price">$18.99</p>
+    <h2 class="product-section__heading">Our Products</h2>
+    <div class="product-section__card-container">
+      <div class="product-section__card">
+        <img class="product-section__card-image" src="coffee-shop-assets/coffeebeans.png" alt="A black bag of coffee beans" />
+          <div class="product-section__card-details pink-background">
+          <div class="product-section__card-details-left">
+            <h3 class="product-section__card--details-title">Coffee Beans</h3>
+            <p class="product-section__card--details-quantity ">Pack of 3</p>
+          </div>
+          <p class="product-section__card-details-price">$19</p>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="coffee-shop-assets/coldbrew.png" alt="A can of cold brew coffee" />
-        <h3 class="product-item-title">Cold Brew</h3>
-        <p class="product-item-price">$4.99</p>
+      <div class="product-section__card">
+        <img class="product-section__card-image" src="coffee-shop-assets/coldbrew.png" alt="A can of cold brew coffee" />
+        <div class="product-section__card-details pink-background">
+          <div class="product-section__card-details-left">
+            <h3 class="product-section__card--details-title">Cold Brew</h3>
+            <p class="product-section__card--details-quantity ">1 Can</p>
+          </div>
+          <div class="product-section_card-details-right">
+            <p class="product-section__card-details-price">$5</p>
+          </div>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="coffee-shop-assets/inhousebrew.png" alt="A black cup of coffee" />
-        <h3 class="product-item-title">In-house Brew</h3>
-        <p class="product-item-price">$2.99</p>
+      <div class="product-section__card">
+        <img class="product-section__card-image" src="coffee-shop-assets/inhousebrew.png" alt="A black cup of coffee" />
+        <div class="product-section__card-details pink-background">
+          <div class="product-section__card-details-left">
+            <h3 class="product-section__card--details-title">In-house Brew</h3>
+            <p class="product-section__card--details-quantity">1 Cup</p>
+          </div>
+          <p class="product-section__card-details-price">$3</p>
+        </div>
       </div>
     </div>
     <button class="blue-button">VIEW ALL</button>
   </section>
-
-  <section id="discounts" class="discount-section">
-    <p class="discount-text">Get 20% off your first order with code: <b>First Nitro</b></p>
+  
+  <section id="learn-more" class="learn-more">
+    <div class="learn-more__column-left">
+      <h2 class="learn-more__title">We're Different</h2>
+      <p class="learn-more__synopsis">
+        We grow and roast our own beans.
+        Every bean, every cup, every step of the way, we strive for excellence
+      </p>
+      <div class="learn-more__icon-container">
+        <img class="learn-more__icon" src="coffee-shop-assets/planting-icon.png" alt="A planting icon.">
+        <img class="learn-more__icon" src="coffee-shop-assets/2-coffee-beans-icon.png" alt="A coffee beans icon.">
+        <img class="learn-more__icon" src="coffee-shop-assets/coffee-cup-icon.png" alt="A coffee cup icon.">
+      </div>
+      <button class="blue-button" >Learn More</button>
+    </div>
+    <div class="learn-more__column-right">
+      <img class="learn-more__background" src="coffee-shop-assets/coldbrewbackground.png" alt="" />
+      <img class="learn-more__tilted-can" src="coffee-shop-assets/tiltedcan.png" alt="A tilted cold brew can on a patterned background" />
+    </div>
   </section>
 
-  <footer>
+  <section id="discounts" class="discount-section">
+    <p class="discount-section__text">Get 20% off your first order with code: <b>First Nitro</b></p>
+  </section>
+
+  <footer class="pink-background">
     <div>
-      <h4 class="footer-item-title">Address</h4>
-      <p>503 Broadway Penthouse</p>
-      <p>New York</p>
+      <h4 class="footer__item-title">Address</h4>
+      <p class="small-text">503 Broadway Penthouse</p>
+      <p class="small-text">New York</p>
     </div>
     <div>
-      <h4 class="footer-item-title">Hours</h4>
-      <p>Monday - Friday: 9am-7pm</p>
-      <p>Saturday - Sunday: 10am-5pm</p>
+      <h4 class="footer__item-title">Hours</h4>
+      <p class="small-text">Monday - Friday: 9am-7pm</p>
+      <p class="small-text">Saturday - Sunday: 10am-5pm</p>
     </div>
     <div>
-      <h4 class="footer-item-title">Social</h4>
-      <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" class="social-icon"/>
-      <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" class="social-icon"/>
-      <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" class="social-icon"/>
+      <h4 class="footer__item-title">Social</h4>
+      <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" class="footer__social-icon"/>
+      <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" class="footer__social-icon"/>
+      <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" class="footer__social-icon"/>
     </div>
   </footer>
 </body>
