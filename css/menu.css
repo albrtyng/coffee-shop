@@ -11,6 +11,12 @@ html, body {
   font-weight: 100;
 }
 
+.hero {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 .menu-title {
   font-size: 3.75rem;
   font-weight: 100;
@@ -22,17 +28,18 @@ html, body {
   width: 17.813rem;
   height: 11.563rem;
   position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-align: center;
+  top: calc(50% - 5.7815rem);
+  left: calc(50% - 8.9065rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ui-grey {
   background-color:#393939;
 }
 
-.menu-hero {
+.hero-img {
   width: 100%;
   height: 46.875rem;
   object-fit: cover;
