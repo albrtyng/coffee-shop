@@ -11,7 +11,7 @@ html, body {
   font-weight: 100;
 }
 
-.hero {
+.menu-hero {
   margin: 0;
   padding: 0;
   position: relative;
@@ -35,6 +35,16 @@ html, body {
   justify-content: center;
 }
 
+.title-box--border {
+  width: 17.813rem;
+  height: 11.563rem;
+  position: absolute;
+  top: calc(50% - 6.6815rem);
+  left: calc(50% - 9.8065rem);
+  border: 3px solid #5BACC3;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .ui-grey {
   background-color:#393939;
 }
@@ -45,6 +55,10 @@ html, body {
   object-fit: cover;
   position: center;
   display: block;
+}
+
+.menu {
+  margin-top: 109px;
 }
 
 .menu-nav {

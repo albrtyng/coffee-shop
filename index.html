@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="pink-background">
-    <div class="title-bar">
+    <div class="title-bar pink-background">
       <div class="title-bar__logo">
         <img class="title-bar__logo-icon" src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
         <h2 class="title-bar__logo-title">nitro</h2>
@@ -27,7 +27,11 @@
       <div class="hero__column-left">
         <h1 class="hero__section-heading">Nitro Coffee</h1>
         <p class="hero__description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-        <button class="blue-button">SHOP NOW</button>
+        <div class="button-container">
+          <button class="blue-button">SHOP NOW</button>
+          <div class="button--border">
+          </div>
+        </div>
       </div>
       <div class="hero__column-right">
         <img class="hero__column-right-image" src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
@@ -71,7 +75,11 @@
         </div>
       </div>
     </div>
-    <button class="blue-button">VIEW ALL</button>
+    <div class="button-container button--middle">
+      <button class="blue-button">VIEW ALL</button>
+      <div class="button--border">
+      </div>
+    </div>
   </section>
   
   <section id="learn-more" class="learn-more">
@@ -86,11 +94,18 @@
         <img class="learn-more__icon" src="coffee-shop-assets/2-coffee-beans-icon.png" alt="A coffee beans icon.">
         <img class="learn-more__icon" src="coffee-shop-assets/coffee-cup-icon.png" alt="A coffee cup icon.">
       </div>
-      <button class="blue-button" >Learn More</button>
+      <div class="button-container">
+        <button class="blue-button">LEARN MORE</button>
+        <div class="button--border">
+        </div>
+      </div>
     </div>
     <div class="learn-more__column-right">
       <img class="learn-more__background" src="coffee-shop-assets/coldbrewbackground.png" alt="" />
       <img class="learn-more__tilted-can" src="coffee-shop-assets/tiltedcan.png" alt="A tilted cold brew can on a patterned background" />
+      <div class="learn-more--border">
+
+      </div>
     </div>
   </section>
 
@@ -99,22 +114,24 @@
   </section>
 
   <footer class="pink-background">
-    <div>
+    <div class="footer__column">
       <h4 class="footer__item-title">Address</h4>
       <p class="footer__item-description">503 Broadway Penthouse</p>
       <p class="footer__item-description">New York</p>
     </div>
-    <div>
+    <div class="footer__column">
       <h4 class="footer__item-title">Hours</h4>
       <p class="footer__item-description"><b>Monday - Friday: </b>9am-7pm</p>
       <p class="footer__item-description"><b>Saturday - Sunday: </b>10am-5pm</p>
     </div>
-    <div>
+    <div class="footer__column">
       <h4 class="footer__item-title">Social</h4>
       <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" class="footer__social-icon"/>
       <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" class="footer__social-icon"/>
       <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" class="footer__social-icon"/>
     </div>
+    <img class="footer__beans-logo beans--left" src="coffee-shop-assets/logobeans.png"/>
+    <img class="footer__beans-logo beans--right" src="coffee-shop-assets/logobeans.png"/>
   </footer>
 </body>
 </html>
