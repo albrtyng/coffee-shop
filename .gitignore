@@ -1,5 +1,5 @@
 .DS_Store
-/*.jpg
-/*.png
+.vscode/
+mockups/
 submission/
 submission.zip

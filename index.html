@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="scss/main.css" />
   <title>Nitro Coffee</title>
 </head>
 <body>
-  <header class="pink-background">
-    <div class="title-bar pink-background">
+  <header class="bg-pink">
+    <div class="title-bar bg-pink">
       <div class="title-bar__logo">
-        <img class="title-bar__logo-icon" src="coffee-shop-assets/logobeans.png" alt="The nitro coffee logo" />
+        <img
+          class="title-bar__logo-icon"
+          src="coffee-shop-assets/logobeans.png"
+          alt="The nitro coffee logo" />
         <h2 class="title-bar__logo-title">nitro</h2>
       </div>
       <div class="title-bar__nav">
@@ -26,15 +29,20 @@
     <div class="hero">
       <div class="hero__column-left">
         <h1 class="hero__section-heading">Nitro Coffee</h1>
-        <p class="hero__description">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-        <div class="button-container">
-          <button class="blue-button">SHOP NOW</button>
-          <div class="button--border">
-          </div>
+        <p class="hero__description">
+          Coffee is a brewed drink prepared from roasted coffee beans,
+          the seeds of berries from certain Coffea species.
+        </p>
+        <div class="btn-container">
+          <div class="btn"></div>
+          <button class="btn--border">SHOP NOW</button>
         </div>
       </div>
       <div class="hero__column-right">
-        <img class="hero__column-right-image" src="coffee-shop-assets/coffeebeans-hero.png" alt="The hero image. A bag of coffee"/>
+        <img
+          class="hero__column-right-image"
+          src="coffee-shop-assets/coffeebeans-hero.png"
+          alt="The hero image. A bag of coffee"/>
       </div>
     </div>
   </header>
@@ -43,8 +51,11 @@
     <h2 class="product-section__heading">Our Products</h2>
     <div class="product-section__card-container">
       <div class="product-section__card">
-        <img class="product-section__card-image" src="coffee-shop-assets/coffeebeans.png" alt="A black bag of coffee beans" />
-          <div class="product-section__card-details pink-background">
+        <img
+          class="product-section__card-image"
+          src="coffee-shop-assets/coffeebeans.png"
+          alt="A black bag of coffee beans" />
+          <div class="product-section__card-details bg-pink">
           <div class="product-section__card-details-left">
             <h3 class="product-section__card-details-title">Coffee Beans</h3>
             <p class="product-section__card-details-quantity ">Pack of 3</p>
@@ -53,8 +64,11 @@
         </div>
       </div>
       <div class="product-section__card">
-        <img class="product-section__card-image" src="coffee-shop-assets/coldbrew.png" alt="A can of cold brew coffee" />
-        <div class="product-section__card-details pink-background">
+        <img
+          class="product-section__card-image"
+          src="coffee-shop-assets/coldbrew.png"
+          alt="A can of cold brew coffee" />
+        <div class="product-section__card-details bg-pink">
           <div class="product-section__card-details-left">
             <h3 class="product-section__card-details-title">Cold Brew</h3>
             <p class="product-section__card-details-quantity ">1 Can</p>
@@ -65,8 +79,11 @@
         </div>
       </div>
       <div class="product-section__card">
-        <img class="product-section__card-image" src="coffee-shop-assets/inhousebrew.png" alt="A black cup of coffee" />
-        <div class="product-section__card-details pink-background">
+        <img
+          class="product-section__card-image"
+          src="coffee-shop-assets/inhousebrew.png"
+          alt="A black cup of coffee" />
+        <div class="product-section__card-details bg-pink">
           <div class="product-section__card-details-left">
             <h3 class="product-section__card-details-title">In-house Brew</h3>
             <p class="product-section__card-details-quantity">1 Cup</p>
@@ -75,10 +92,9 @@
         </div>
       </div>
     </div>
-    <div class="button-container button--middle">
-      <button class="blue-button">VIEW ALL</button>
-      <div class="button--border">
-      </div>
+    <div class="btn-container btn-container--middle">
+      <div class="btn"></div>
+      <button class="btn--border">VIEW ALL</button>
     </div>
   </section>
   
@@ -90,30 +106,47 @@
         Every bean, every cup, every step of the way, we strive for excellence
       </p>
       <div class="learn-more__icons">
-        <img class="learn-more__icon" src="coffee-shop-assets/planting-icon.png" alt="A planting icon.">
-        <img class="learn-more__icon" src="coffee-shop-assets/2-coffee-beans-icon.png" alt="A coffee beans icon.">
-        <img class="learn-more__icon" src="coffee-shop-assets/coffee-cup-icon.png" alt="A coffee cup icon.">
+        <img
+          class="learn-more__icon"
+          src="coffee-shop-assets/planting-icon.png"
+          alt="A planting icon." />
+        <img
+          class="learn-more__icon"
+          src="coffee-shop-assets/2-coffee-beans-icon.png"
+          alt="A coffee beans icon." />
+        <img
+          class="learn-more__icon"
+          src="coffee-shop-assets/coffee-cup-icon.png"
+          alt="A coffee cup icon." />
       </div>
-      <div class="button-container">
-        <button class="blue-button">LEARN MORE</button>
-        <div class="button--border">
-        </div>
+      <div class="btn-container">
+        <div class="btn"></div>
+        <button class="btn--border">LEARN MORE</button>
       </div>
     </div>
     <div class="learn-more__column-right">
-      <img class="learn-more__background" src="coffee-shop-assets/coldbrewbackground.png" alt="" />
-      <img class="learn-more__tilted-can" src="coffee-shop-assets/tiltedcan.png" alt="A tilted cold brew can on a patterned background" />
-      <div class="learn-more--border">
-
+      <img
+        class="learn-more__background"
+        src="coffee-shop-assets/coldbrewbackground.png"
+        alt="A zigzag patterned background" />
+      <div class="learn-more--border"></div>
+      <div class="learn-more__img-container">
+        <img
+          class="learn-more__tilted-can"
+          src="coffee-shop-assets/tiltedcan.png"
+          alt="A tilted cold brew can on a patterned background"
+        />
       </div>
     </div>
   </section>
 
   <section id="discounts" class="discount-section">
-    <p class="discount-section__text">Get 20% off your first order with code: <b>First Nitro</b></p>
+    <p class="discount-section__text">
+      Get 20% off your first order with code: &nbsp;<b> FirstNitro</b>
+    </p>
   </section>
 
-  <footer class="pink-background">
+  <footer class="footer bg-pink">
     <div class="footer__column">
       <h4 class="footer__item-title">Address</h4>
       <p class="footer__item-description">503 Broadway Penthouse</p>
@@ -126,12 +159,27 @@
     </div>
     <div class="footer__column">
       <h4 class="footer__item-title">Social</h4>
-      <img src="coffee-shop-assets/facebook.png" alt="A clickable Facebook icon" class="footer__social-icon"/>
-      <img src="coffee-shop-assets/yelp.png" alt="A clickable Yelp icon" class="footer__social-icon"/>
-      <img src="coffee-shop-assets/instagram.png" alt="A clickable Instagram icon" class="footer__social-icon"/>
+      <img
+        class="footer__social-icon"
+        src="coffee-shop-assets/facebook.png"
+        alt="A clickable Facebook icon" />
+      <img
+        class="footer__social-icon"
+        src="coffee-shop-assets/yelp.png"
+        alt="A clickable Yelp icon" />
+      <img
+        class="footer__social-icon"
+        src="coffee-shop-assets/instagram.png"
+        alt="A clickable Instagram icon" />
     </div>
-    <img class="footer__beans-logo beans--left" src="coffee-shop-assets/logobeans.png"/>
-    <img class="footer__beans-logo beans--right" src="coffee-shop-assets/logobeans.png"/>
+    <img
+      class="footer__beans footer__beans--left"
+      src="coffee-shop-assets/logobeans.png"
+      alt="The nitro coffee logo" />
+    <img
+      class="footer__beans footer__beans--right"
+      src="coffee-shop-assets/logobeans.png"
+      alt="The nitro coffee logo" />
   </footer>
 </body>
 </html>
