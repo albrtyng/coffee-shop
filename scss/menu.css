@@ -30,7 +30,7 @@
 }
 
 .menu-container {
-  margin-top: 109px;
+  margin-top: 6.8125rem;
 }
 
 .menu-nav {
@@ -95,7 +95,7 @@
 }
 
 .menu {
-  scroll-margin: 109px;
+  scroll-margin: 6.8125rem;
   text-align: center;
   padding: 1.25rem 0;
 }
@@ -105,7 +105,7 @@
 }
 
 .menu__item-title {
-  margin: 20px 0 0 0;
+  margin: 1.25rem 0 0 0;
 }
 
 .menu__item-description {
